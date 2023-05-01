@@ -1,7 +1,7 @@
 using UnityEngine;
 
-public static class GameControl
-{
+public static class GameControl : object
+{ 
     public static bool paused, inventory, cutscene, objectives, conversation, importantConversation, tutorial, gasMask, labcoat = true;
     public static bool inCar, thirdPerson, dead, vendor, bulletTime, inTank;
     public static bool fauna = true, wildlife = true, elements = true, aa = true, motionBlur = true;
